@@ -1,0 +1,35 @@
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:30:09"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:30:29"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:30:33"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:30:40"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:30:53"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-26 18:30:53"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:31:08"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-26 18:31:08"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 18:31:25"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-26 18:31:25"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-26 18:32:11"}
+{"level":"info","message":"Login attempt for user: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:32:11"}
+{"level":"warn","message":"Login failed - User not found: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:32:11"}
+{"level":"info","message":"::1 - - [26/Feb/2025:13:32:11 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 404 44 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:32:11"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-26 18:32:25"}
+{"level":"info","message":"Login attempt for user: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:32:25"}
+{"level":"warn","message":"Login failed - User not found: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:32:25"}
+{"level":"info","message":"::1 - - [26/Feb/2025:13:32:25 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 404 44 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:32:25"}
+{"level":"info","message":"POST /api/users/register request received","service":"user-auth-service","timestamp":"2025-02-26 18:33:06"}
+{"level":"info","message":"Registration attempt for user: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:33:06"}
+{"level":"info","message":"User registered successfully: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:33:06"}
+{"level":"info","message":"::1 - - [26/Feb/2025:13:33:06 +0000] \"POST /api/users/register HTTP/1.1\" 201 361 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:33:06"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-26 18:33:17"}
+{"level":"info","message":"Login attempt for user: abuzar","service":"user-auth-service","timestamp":"2025-02-26 18:33:17"}
+{"level":"info","message":"OTP generated for user: abuzar","service":"user-auth-service","timestamp":"2025-02-26 18:33:17"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-26 18:33:26"}
+{"level":"info","message":"::1 - - [26/Feb/2025:13:33:26 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:33:26"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-26 18:33:48"}
+{"level":"info","message":"OTP verification attempt for user ID: 67bf18122f5c0d13e2dc09b0","service":"user-auth-service","timestamp":"2025-02-26 18:33:48"}
+{"level":"warn","message":"OTP verification failed - Invalid OTP for user: abuzar","service":"user-auth-service","timestamp":"2025-02-26 18:33:48"}
+{"level":"info","message":"::1 - - [26/Feb/2025:13:33:48 +0000] \"POST /api/users/login/verify HTTP/1.1\" 401 41 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:33:48"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
+{"level":"info","message":"OTP verification attempt for user ID: 67bf18122f5c0d13e2dc09b0","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
+{"level":"info","message":"User logged in successfully: abuzar","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
+{"level":"info","message":"::1 - - [26/Feb/2025:13:33:52 +0000] \"POST /api/users/login/verify HTTP/1.1\" 200 278 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
