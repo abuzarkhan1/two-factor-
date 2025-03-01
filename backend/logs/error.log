@@ -1,0 +1,2 @@
+{"error":{},"level":"error","message":"OTP verification error: jwt is not defined","service":"user-auth-service","timestamp":"2025-02-28 21:39:16"}
+{"error":{},"level":"error","message":"OTP verification error: jwt is not defined","service":"user-auth-service","timestamp":"2025-02-28 21:39:47"}

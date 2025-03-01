@@ -33,3 +33,85 @@
 {"level":"info","message":"OTP verification attempt for user ID: 67bf18122f5c0d13e2dc09b0","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
 {"level":"info","message":"User logged in successfully: abuzar","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
 {"level":"info","message":"::1 - - [26/Feb/2025:13:33:52 +0000] \"POST /api/users/login/verify HTTP/1.1\" 200 278 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-26 18:33:52"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-26 19:09:11"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-26 19:09:11"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-28 21:32:56"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-28 21:32:56"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-28 21:37:20"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-28 21:37:20"}
+{"level":"info","message":"POST /api/users/register request received","service":"user-auth-service","timestamp":"2025-02-28 21:38:39"}
+{"level":"info","message":"Registration attempt for user: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:38:39"}
+{"level":"info","message":"User registered successfully: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:38:39"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:38:39 +0000] \"POST /api/users/register HTTP/1.1\" 201 316 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:38:39"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-28 21:38:45"}
+{"level":"info","message":"Login attempt for email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:38:45"}
+{"level":"info","message":"OTP generated for user: abuzarkhan1 with email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:38:45"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:38:59"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:38:59 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:38:59"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:39:16"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e68fc2a9e6b249ca6217","service":"user-auth-service","timestamp":"2025-02-28 21:39:16"}
+{"error":{},"level":"error","message":"OTP verification error: jwt is not defined","service":"user-auth-service","timestamp":"2025-02-28 21:39:16"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:39:16 +0000] \"POST /api/users/login/verify HTTP/1.1\" 500 48 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:39:16"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:39:24"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e68fc2a9e6b249ca6217","service":"user-auth-service","timestamp":"2025-02-28 21:39:24"}
+{"level":"warn","message":"OTP verification failed - Expired OTP for user: abuzarkhan1","service":"user-auth-service","timestamp":"2025-02-28 21:39:24"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:39:24 +0000] \"POST /api/users/login/verify HTTP/1.1\" 401 45 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:39:24"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-28 21:39:29"}
+{"level":"info","message":"Login attempt for email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:39:29"}
+{"level":"info","message":"OTP generated for user: abuzarkhan1 with email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:39:29"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:39:32"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:39:32 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:39:32"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:39:47"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e68fc2a9e6b249ca6217","service":"user-auth-service","timestamp":"2025-02-28 21:39:47"}
+{"error":{},"level":"error","message":"OTP verification error: jwt is not defined","service":"user-auth-service","timestamp":"2025-02-28 21:39:47"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:39:47 +0000] \"POST /api/users/login/verify HTTP/1.1\" 500 48 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:39:47"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-28 21:40:45"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-28 21:40:45"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-28 21:42:57"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-28 21:42:57"}
+{"level":"info","message":"POST /api/users/register request received","service":"user-auth-service","timestamp":"2025-02-28 21:43:17"}
+{"level":"info","message":"Registration attempt for user: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:43:17"}
+{"level":"info","message":"User registered successfully: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:43:17"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:43:17 +0000] \"POST /api/users/register HTTP/1.1\" 201 361 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:43:17"}
+{"level":"info","message":"Server is running on port 3000","service":"user-auth-service","timestamp":"2025-02-28 21:44:44"}
+{"level":"info","message":"Database connected successfully","service":"user-auth-service","timestamp":"2025-02-28 21:44:44"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-28 21:45:16"}
+{"level":"info","message":"Login attempt for email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:45:16"}
+{"level":"info","message":"OTP generated for user: abuzar with email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:45:16"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:45:26"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:45:26 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:45:26"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:45:37"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e7a5936ae1ad918727b9","service":"user-auth-service","timestamp":"2025-02-28 21:45:37"}
+{"level":"info","message":"User logged in successfully: abuzar","service":"user-auth-service","timestamp":"2025-02-28 21:45:37"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:45:37 +0000] \"POST /api/users/login/verify HTTP/1.1\" 200 435 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:45:37"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-28 21:48:41"}
+{"level":"info","message":"Login attempt for email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:48:41"}
+{"level":"info","message":"OTP generated for user: abuzar with email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:48:41"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:48:44"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:48:44 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:48:44"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:48:58"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e7a5936ae1ad918727b9","service":"user-auth-service","timestamp":"2025-02-28 21:48:58"}
+{"level":"info","message":"User logged in successfully: abuzar","service":"user-auth-service","timestamp":"2025-02-28 21:48:58"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:48:58 +0000] \"POST /api/users/login/verify HTTP/1.1\" 200 435 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:48:58"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-28 21:49:06"}
+{"level":"info","message":"Login attempt for email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:49:06"}
+{"level":"info","message":"OTP generated for user: abuzar with email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:49:06"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:49:09"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:49:09 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:49:09"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:49:24"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e7a5936ae1ad918727b9","service":"user-auth-service","timestamp":"2025-02-28 21:49:24"}
+{"level":"warn","message":"OTP verification failed - Invalid OTP for user: abuzar","service":"user-auth-service","timestamp":"2025-02-28 21:49:24"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:49:24 +0000] \"POST /api/users/login/verify HTTP/1.1\" 401 41 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:49:24"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:49:32"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e7a5936ae1ad918727b9","service":"user-auth-service","timestamp":"2025-02-28 21:49:32"}
+{"level":"info","message":"User logged in successfully: abuzar","service":"user-auth-service","timestamp":"2025-02-28 21:49:32"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:49:32 +0000] \"POST /api/users/login/verify HTTP/1.1\" 200 435 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:49:32"}
+{"level":"info","message":"POST /api/users/login/initiate request received","service":"user-auth-service","timestamp":"2025-02-28 21:57:42"}
+{"level":"info","message":"Login attempt for email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:57:42"}
+{"level":"info","message":"OTP generated for user: abuzar with email: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:57:42"}
+{"level":"info","message":"OTP sent successfully to: abuzarkhan1242@gmail.com","service":"user-auth-service","timestamp":"2025-02-28 21:57:51"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:57:51 +0000] \"POST /api/users/login/initiate HTTP/1.1\" 200 87 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:57:51"}
+{"level":"info","message":"POST /api/users/login/verify request received","service":"user-auth-service","timestamp":"2025-02-28 21:58:00"}
+{"level":"info","message":"OTP verification attempt for user ID: 67c1e7a5936ae1ad918727b9","service":"user-auth-service","timestamp":"2025-02-28 21:58:00"}
+{"level":"info","message":"User logged in successfully: abuzar","service":"user-auth-service","timestamp":"2025-02-28 21:58:00"}
+{"level":"info","message":"::1 - - [28/Feb/2025:16:58:00 +0000] \"POST /api/users/login/verify HTTP/1.1\" 200 435 \"http://localhost:5173/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\"","service":"user-auth-service","timestamp":"2025-02-28 21:58:00"}

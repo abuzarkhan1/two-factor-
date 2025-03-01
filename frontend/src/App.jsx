@@ -1,7 +1,7 @@
 import {  Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import Register from './components/register';
-import Login from './components/login';
+import Register from './components/Register';
+import Login from './components/Login';
 import Home from './components/Home';
 
 const App = () => {

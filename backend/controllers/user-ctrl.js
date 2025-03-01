@@ -48,26 +48,18 @@ const registerUser = async (req, res) => {
 
 const initiateLogin = async (req, res) => {
   try {
-    const { name, password } = req.body;
-    logger.info(`Login attempt for user: ${name}`);
+    const { email } = req.body;
+    logger.info(`Login attempt for email: ${email}`);
 
-    const user = await User.findOne({ name });
+    const user = await User.findOne({ email });
     if (!user) {
-      logger.warn(`Login failed - User not found: ${name}`);
+      logger.warn(`Login failed - User not found with email: ${email}`);
       return res.status(404).json({ 
         success: false, 
-        message: "User not found" 
+        message: "User not found with this email" 
       });
     }
 
-    const isPasswordMatched = await bcrypt.compare(password, user.password);
-    if (!isPasswordMatched) {
-      logger.warn(`Login failed - Password mismatch for user: ${name}`);
-      return res.status(401).json({ 
-        success: false, 
-        message: "Password Not Matched" 
-      });
-    }
 
     const otp = generateOTP();
     const otpExpiryTime = new Date();
@@ -78,7 +70,7 @@ const initiateLogin = async (req, res) => {
       expiresAt: otpExpiryTime
     };
     await user.save();
-    logger.info(`OTP generated for user: ${name}`);
+    logger.info(`OTP generated for user: ${user.name} with email: ${email}`);
 
     const emailSent = await sendOTP(user.email, otp);
     if (!emailSent) {
@@ -145,6 +137,7 @@ const verifyOTP = async (req, res) => {
       {
         userId: user._id,
         name: user.name,
+        email: user.email,
         role: user.role,
       },
       process.env.JWT_SECRET,
@@ -158,6 +151,12 @@ const verifyOTP = async (req, res) => {
       success: true,
       message: "Login Successful",
       accessToken,
+      userData: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role
+      }
     });
 
   } catch (err) {
